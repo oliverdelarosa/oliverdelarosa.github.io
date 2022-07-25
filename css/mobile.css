@@ -1,0 +1,124 @@
+/* Utility Classes */
+.display-1 {
+	font-size: 4rem;
+}
+
+/* Navbar */
+.navbar-home {
+	height: 10%;
+}
+
+/* Showcase */
+#showcase {
+	height: 100%;
+	padding: 50px 0 20px 0;
+}
+
+.showcase-row {
+	flex-wrap: wrap;
+}
+
+.showcase-row-title {
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/* About */
+#about {
+	padding: 50px 0;
+	text-align: center;
+}
+
+#about h2 {
+	padding-bottom: 30px;
+}
+
+.about-row {
+	flex-wrap: wrap;
+}
+
+.about-row-image img {
+	height: auto;
+	width: 100%;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+
+#about hr {
+	width: 100%;
+}
+
+/* Skills */
+#skills {
+	padding: 50px 0;
+	text-align: center;
+}
+
+#skills h2 {
+	padding-bottom: 30px;
+}
+
+.skills-row-left-image,
+.skills-row-right-image {
+	padding-right: 20px;
+}
+
+.skills-row-left-image img,
+.skills-row-right-image img {
+	height: 60px;
+}
+
+.skills-row-left-text h4,
+.skills-row-right-text h4 {
+	font-size: 16px;
+}
+
+.skills-row-left-text p,
+.skills-row-right-text p {
+	text-align: left;
+}
+
+/* Timeline */
+#timeline {
+	padding: 50px 0;
+	text-align: center;
+}
+
+#timeline h2 {
+	padding-bottom: 30px;
+}
+
+/* Portfolio */
+#portfolio {
+	padding: 50px 0;
+	text-align: center;
+}
+
+#portfolio h2 {
+	padding-bottom: 30px;
+}
+
+.portfolio-row {
+	flex-wrap: wrap;
+}
+
+/* Contact */
+#contact {
+	padding: 50px 0;
+	text-align: center;
+}
+
+#contact h2 {
+	padding: 30px;
+}
+
+.contact-form {
+	width: 100%;
+}
+
+/* Footer */
+.footer-home {
+	height: 10%;
+}

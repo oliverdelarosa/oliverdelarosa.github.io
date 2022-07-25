@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: gray;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.large {
+	font-size: 1.25rem;
+}
+
+.display-1 {
+	font-size: 6rem;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
+
+.btn-dark {
+	background: #4d4d4d;
+	border: none;
+	color: #fff;
+}
+
+.btn-dark:hover {
+	background: #fff;
+	border: 1px solid #4d4d4d;
+	color: #4d4d4d;
+}
+
+form label {
+	display: inline-block;
+	margin-bottom: 6px;
+	font-weight: 300;
+}
+
+form .form-group {
+	margin-bottom: 16px;
+}
+
+form .form-control {
+	display: block;
+	width: 100%;
+	padding: 7px 12px;
+	line-height: 1.5;
+	background-color: #f8f9fa;
+	border: none;
+	border-radius: 4px;
+}
+
+/* Navbar */
+.navbar-home {
+	height: 10vh;
+}
+
+#navbar {
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #000;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 5px;
+}
+
+#navbar .logo img {
+	height: 40px;
+}
+
+#navbar ul {
+	float: right;
+	font-size: 14px;
+	list-style: none;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current {
+	text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+	height: 80vh;
+	background: #f8f9fa;
+	padding: 150px 0;
+}
+
+#showcase h1 {
+	line-height: 1em;
+}
+
+#showcase .title-outline {
+	color: #fff;
+	-webkit-text-stroke: 3px #000;
+}
+
+.showcase-row {
+	display: flex;
+}
+
+.showcase-row-title {
+	padding-top: 70px;
+}
+
+.showcase-row-image {
+	display: block;
+	margin: 0 auto;
+}
+
+.showcase-row-image img {
+	height: 500px;
+}
+
+/* About */
+#about {
+	background: #f8f9fa;
+	padding: 90px 0;
+}
+
+#about h2 {
+	padding-bottom: 50px;
+}
+
+.about-row {
+	display: flex;
+}
+
+.about-row-image img {
+	height: 500px;
+	padding-right: 90px;
+}
+
+#about hr {
+	width: 60%;
+	margin-bottom: 30px;
+}
+
+/* Skills */
+#skills {
+	padding: 90px 0;
+}
+
+#skills h2 {
+	padding-bottom: 50px;
+}
+
+.skills-row {
+	display: flex;
+	padding-bottom: 50px;
+}
+
+.skills-row-left,
+.skills-row-right {
+	width: 50%;
+	display: flex;
+}
+
+.skills-row-left-image,
+.skills-row-right-image {
+	width: 50%;
+	text-align: right;
+	padding-right: 50px;
+	
+}
+
+.skills-row-left-image img,
+.skills-row-right-image img {
+	height: 100px;
+	
+}
+
+
+/* Portfolio */
+#portfolio {
+	padding: 90px 0;
+	background: #f8f9fa;
+}
+
+#portfolio h2 {
+	padding-bottom: 50px;
+}
+
+.portfolio-row {
+	display: flex;
+}
+
+.portfolio-row-box {
+	margin: 20px;
+	background: #fff;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.portfolio-row-box img {
+	width: 100%;
+}
+
+.portfolio-row-box p {
+	text-align: center;
+	padding: 20px;
+	margin-top: 0;
+}
+
+
+/* Contact */
+#contact {
+	padding: 90px 0;
+	background: #f8f9fa;
+	
+}
+
+#contact h2 {
+	padding: 50px;
+}
+
+.contact-form {
+	background: rgb(189, 201, 218);
+border-color:red;
+	width: 50%;
+	margin: 20px auto;
+	padding: 70px 50px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+	
+}
+
+.contact-form h5 {
+	text-align: center;
+	padding-bottom: 40px;
+	font-weight: 900;
+}
+
+.contact-form button {
+	width: 100%;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 200px;
+	padding: 2em;
+	background-color: rgb(189, 201, 218);
+  }
+  
+  .footer-content h2 {
+	font-size: 3em;
+  }
+  
+  .footer-content h5 {
+	font-size: 1.5em;
+	text-align: center;
+  }
+  
+  .sotial-networks {
+	display: flex;
+	justify-content: space-evenly;
+	width: 300px;
+	margin-top: 1em;
+  }
+  
+  .sotial-networks i {
+	font-size: 1.5em;
+  }
+  
