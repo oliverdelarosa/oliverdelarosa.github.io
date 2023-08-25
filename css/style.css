@@ -14,6 +14,16 @@ body {
 	background-color: gray;
 }
 
+	
+#bot:hover{
+
+	background-color:gray;
+	border-radius: 4px;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
 h1 {
 	font-size: 2.5rem;
 }
@@ -62,6 +72,8 @@ a {
 .large {
 	font-size: 1.25rem;
 }
+
+
 
 .display-1 {
 	font-size: 6rem;
@@ -203,6 +215,7 @@ form .form-control {
 .about-row-image img {
 	height: 500px;
 	padding-right: 90px;
+	
 }
 
 #about hr {
@@ -249,11 +262,31 @@ form .form-control {
 #portfolio {
 	padding: 90px 0;
 	background: #f8f9fa;
+	border: 30px;
+	
 }
 
 #portfolio h2 {
 	padding-bottom: 50px;
 }
+.card__proyect-links{
+	font-size: 3rem;
+	margin-right: 3rem;
+	text-align: center;
+	
+}
+.card{
+	margin-left:20px;
+	margin-right: 20px;
+	
+}
+.card__proyect-links i{
+	color: #4d4d4d;
+}
+.card__proyect-links i:hover{
+	color:rgb(88, 3, 56);
+}
+
 
 .portfolio-row {
 	display: flex;
@@ -284,16 +317,18 @@ form .form-control {
 
 #contact h2 {
 	padding: 50px;
+	height: 20;
 }
 
 .contact-form {
 	background: rgb(189, 201, 218);
-border-color:red;
+    border-color:red;
 	width: 50%;
 	margin: 20px auto;
 	padding: 70px 50px;
 	border-radius: 20px;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+	
 	
 }
 
@@ -335,6 +370,7 @@ border-color:red;
   }
   
   .sotial-networks i {
-	font-size: 1.5em;
+	font-size: 3rem;
+	margin-right: 3rem;
   }
   
